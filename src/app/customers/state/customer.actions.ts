@@ -110,7 +110,7 @@ export class DeleteCustomerFail implements Action {
   constructor(public payload: string) {}
 }
 
-export type Action =
+export type Actions =
   | LoadCustomers
   | LoadCustomersSuccess
   | LoadCustomersFail
